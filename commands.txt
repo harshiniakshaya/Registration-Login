@@ -1,0 +1,18 @@
+npm create vite@latest
+npm i bootstrap axios react-router-dom
+npm run dev
+
+backend:
+mkdir sever
+cd sever
+npm init -y
+npm install express
+npm i mongoose cors nodemon
+inside package.json
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  }
+create index.js inside the sever folder
+
+create models inside the server folder
